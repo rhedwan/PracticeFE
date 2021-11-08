@@ -5,22 +5,33 @@
 }
 
 .container{
-    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "box1 box2 box3"
+                         "box4 box5 box3";
+                    
 }
 
 .box1{
-
+    background-color: red;
+    grid-area: box1;
 }
 
 .box2{
-
+    background-color: yellow;
+    grid-area: box2;
 }
 .box3{
+    background-color: orangered;
+    grid-area: box3;
 
 }
-.box3{
-
+.box4{
+    background-color: purple;
+    grid-area: box4;
 }
 .box5{
-
+    background-color: blue;
+    grid-area: box5;
 }
