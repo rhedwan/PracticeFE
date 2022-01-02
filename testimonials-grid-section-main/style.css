@@ -22,7 +22,7 @@ body {
 }
 .box {
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px;
 }
 
 .box .title {
@@ -36,16 +36,21 @@ body {
   color: hsl(217, 19%, 35%);
 }
 
+.content h2 {
+  font-size: 17px;
+}
+
 .content {
   color: hsl(210, 46%, 95%);
 }
 
-._content{
+._content {
   color: hsl(217, 19%, 35%);
 }
 
 .content h3 {
   opacity: 0.5;
+  font-size: 16px;
 }
 .main-content {
   color: hsl(210, 46%, 95%);
@@ -87,7 +92,7 @@ body {
 .header img {
   border-radius: 50%;
   margin-right: 10px;
-  height: 56px;
+  height: 46px;
 }
 
 @media screen and (max-width: 720px) {
