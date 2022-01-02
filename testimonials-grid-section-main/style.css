@@ -25,6 +25,23 @@ body {
   padding: 20px;
 }
 
+.box .title {
+  color: hsl(0, 0%, 100%);
+  margin: 10px 0;
+  line-height: 20px;
+  font-weight: 600;
+}
+.content{
+    color: hsl(210, 46%, 95%);
+}
+
+.content h3{
+    opacity: 0.5;
+}
+.main-content{
+    color: hsl(210, 46%, 95%);
+    opacity: 0.7;
+}
 .box1 {
   background-color: hsl(263, 55%, 52%);
   /* grid-area: box1; */
