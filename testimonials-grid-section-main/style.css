@@ -96,9 +96,6 @@ body {
 }
 
 @media screen and (max-width: 720px) {
-  body {
-    background-color: teal;
-  }
   .container {
     display: grid;
     padding: 20px auto;
